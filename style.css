@@ -20,3 +20,15 @@
 .progress {
   height: 10px;
 }
+/* Hilangkan underline & ubah warna link */
+.card a {
+  text-decoration: none;   /* hilangkan garis bawah */
+  color: #333;             /* ganti warna (abu tua misalnya) */
+  transition: color 0.3s;
+}
+
+/* Efek hover */
+.card a:hover {
+  color: #0d6efd;          /* biru Bootstrap ketika hover */
+  text-decoration: underline; /* kalau mau garis bawah hanya saat hover */
+}
