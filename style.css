@@ -7,7 +7,7 @@
 
 /* Hero section dengan background */
 .hero {
-  background: url('gambar/bg.jpg') center/cover no-repeat;
+  /* background: url('gambar/bg.jpg') center/cover no-repeat; */
   color: white;
 }
 
